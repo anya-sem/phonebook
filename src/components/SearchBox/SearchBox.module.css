@@ -1,0 +1,16 @@
+.label {
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+.input {
+  border-radius: 8px;
+  border: 1.5px solid #eee;
+  padding: 8px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-bottom: 20px;
+  width: 170px;
+}
+.input:hover {
+  border-color: #8d59e8;
+}

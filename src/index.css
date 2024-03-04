@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+  min-width: 320px;
+  padding: 10px 10px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  body {
+    max-width: 1158px;
+    padding: 20px 20px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 1158px) {
+  .wrapper {
+    gap: 30px;
+  }
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.link:hover {
+  color: #8d59e8;
+  transition: color 0.25s;
+}

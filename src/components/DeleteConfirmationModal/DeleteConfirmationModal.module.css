@@ -1,0 +1,35 @@
+.modal {
+  border-radius: 8px;
+  border: 1.5px solid #ac86ee;
+  padding: 20px;
+  min-width: 250px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition: transform 0.25s;
+}
+.text {
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 8px;
+  background-color: #ac86ee;
+  color: #fff;
+  width: 68px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.button:hover {
+  background-color: #8d59e8;
+}
